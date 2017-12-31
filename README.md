@@ -3,7 +3,7 @@ Reboot a Raspberry Pi if it loses connection with an IP address
 
 Copythe checkwifi.sh file to the /usr/local/bin directory and give it execute permissions:
 
-    chmod +x /usr/local/bin/checkwifi.sh
+    sudo chmod +x /usr/local/bin/checkwifi.sh
   
 Edit the IP address in the file above to point to an IP address that you trust to remain available at all times (e.g. the IP address of your router).
 
